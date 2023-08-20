@@ -1,5 +1,5 @@
 /**
- * service worker version 0.0.0
+ * service worker version 0.0.2
  */
 
 self.addEventListener("install", (event) => {

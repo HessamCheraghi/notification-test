@@ -4,7 +4,7 @@ import { sendSubscriptionToBackEnd } from "./utils/sendSubscriptionToBackEnd";
 import { subscribeUserToPush } from "./utils/subscribeUserToPush";
 import "./test";
 
-async function main() {
+export async function main() {
   if (!("serviceWorker" in navigator)) {
     // Service Worker isn't supported on this browser, disable or hide UI.
     return;
