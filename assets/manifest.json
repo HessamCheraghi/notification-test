@@ -1,6 +1,6 @@
 {
-  "name": "Rasamiot",
-  "short_name": "rasamiot",
+  "name": "Notification Test",
+  "short_name": "test",
   "icons": [
     {
       "src": "favicon.ico",
