@@ -18,8 +18,9 @@
       "sizes": "512x512"
     }
   ],
+  "id": "/notification-test/",
   "start_url": "/notification-test/",
-  "display": "browser",
+  "display": "standalone",
   "theme_color": "#000000",
   "background_color": "#000000"
 }
