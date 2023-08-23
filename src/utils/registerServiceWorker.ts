@@ -1,6 +1,6 @@
 export async function registerServiceWorker() {
   try {
-    const registration: ServiceWorkerRegistration =
+    const registration =
       await navigator.serviceWorker.register("./assets/sw.js");
     console.log("Service worker successfully registered.");
     return registration;

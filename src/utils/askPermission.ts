@@ -10,8 +10,8 @@ export async function askPermission() {
       newBrowserResult.then(resolve, reject);
     }
   });
-  if (permissionResult !== "granted") {
-    return false;
+  if (permissionResult === "granted") {
+    return true;
   }
-  return true;
+  return false;
 }
